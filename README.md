@@ -6,9 +6,9 @@ Uses the MongoSH to find movies with filters.
 ![mongodbcommandpt1 5](https://github.com/plovanpete/cs3980-hw3-mongodb-queries/assets/145849883/7e8b807f-04f4-4262-a7d5-6baf7171714b)
 
 In this query, the command to find the movies is to first do the command: use sample_mflx so that it goes to that collection.
-Afterwards, we use db.movies.find() with our filters inside.
+Afterwards, we use ```db.movies.find()``` with our filters inside.
 
-The first filter of the command in db.movies.find() uses **{runtime : {$gt :200}** which finds the movies that are greater than 200 minutes.
+The first filter of the command in db.movies.find() uses ```**{runtime : {$gt :200}**``` which finds the movies that are greater than 200 minutes.
 
 The second filter of the command in db.movies.find() uses **year: 1983** finding movies that were in 1983.
 
